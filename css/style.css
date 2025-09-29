@@ -22,6 +22,8 @@ header {
   grid-template-columns: 350px auto auto;
   align-items: center;
 }
+
+
 .header__middle {
   color: var(--color-cyan);
 }
@@ -74,6 +76,27 @@ label {
   }
 }
 
+@media (max-width: 886px) {
+  header{
+    height: fit-content;
+    padding-block: 10px;
+  }
+  .header__container{
+    gap: 10px;
+  }
+  .header__left{
+    grid-column: 1/4 !important;
+    justify-self: center;
+  }
+  .header__middle{
+    grid-column: 1/4 !important;
+    justify-self: center;
+  }
+  .header__right{
+    grid-column: 1/4 !important;
+    justify-self: center;
+  }
+}
 /*
 .##.....##....###....####.##....##.....######..########..######..########.####..#######..##....##
 .###...###...##.##....##..###...##....##....##.##.......##....##....##.....##..##.....##.###...##
