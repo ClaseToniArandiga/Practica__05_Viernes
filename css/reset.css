@@ -9,11 +9,13 @@
     /* text-decoration: none; */
     list-style: none;
 }
-
+li{
+    cursor: help;
+}
 
 :root{
     --bg-light: rgba(162, 162, 162, 0.1);
-    --bg-white: white;
+    --bg-white: rgb(180, 180, 180);
     --shadow-s: rgba(0, 0, 0, 0.2);
     --color-cyan: rgb(84, 125, 230);
     --color-verde: green;    
@@ -38,10 +40,12 @@
 .active{
     box-shadow: 0 0 2px 0px blue;
 }
-
-.bg-blue{
+.btn.bg-color-2{
     background-color: var(--color-blue);
-    color: white !important;
+    color: white;
+}
+.btn.bg-color-2:hover{
+    background-color: rgba(0, 0, 255, 0.777);
 }
 
 body{
