@@ -109,8 +109,9 @@ label {
 
 .main__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: center;
+  align-content: center;
   gap: 10px;
 }
 
